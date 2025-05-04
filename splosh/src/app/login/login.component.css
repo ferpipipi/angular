@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-login{
+    max-width: 10%;
+    min-width: 25%;
+    height: 450px;
+    background-color: rgba(238, 235, 235, 0.727);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.login-form{
+    padding: 20px 40px;
+}
+
+.label{
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.login-form input{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+    border: thin solid #ccc;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+.btn-login{
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #FF8142;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-login:hover{
+    background-color: #fd590d;
+}
+
+.btn-login:active{
+    background-color: #fd590d;
+}
+
+.label-olvidar{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+
+.label-olvidar:hover{
+    color: #FF8142;
+    cursor: pointer;
+}
