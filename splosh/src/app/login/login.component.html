@@ -2,9 +2,9 @@
     <h1>INICIAR SESION</h1>
     <div class="login-form">
         <label class="label">Correo Electronico</label>
-        <input type="email">
+        <input type="email" [(ngModel)]="email" name="email" required>
         <label class="label">Contraseña</label>
-        <input type="password">
+        <input type="password" [(ngModel)]="password" name="password" required>
         <div class="botones">
             <button class="btn-login" [routerLink]="['/home']">Iniciar sesión</button>
             <button class="btn-login">Registrarse</button>

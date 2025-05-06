@@ -17,8 +17,8 @@ Aqui cualquier persona puede ver las series mas vistas durante los años 2000's
 Puedo mejorar mi proyecto a que se vea mejor ya que con forme use angular se va a ver mejor. 
 
 
-(image-1.png)
-(image-2.png)
+![](image-1.png)
+![](image-2.png)
 
 Hice un nuevo repo por eso todo dice que lo hice hoy, pero fue porque apenas lo subi hoy, eso no significa que lo hice hoy, si no que volví a crear uno nuevo.
 Pero este ya es bueno, en el cual estoy trabajando. 

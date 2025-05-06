@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { SeccionComponent } from './seccion/seccion.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
         AppComponent,
         HomeComponent,
         LoginComponent,
-        SeccionComponent
+        SeccionComponent,
+        HttpClientModule,
     ],
     imports: [
         BrowserModule,
