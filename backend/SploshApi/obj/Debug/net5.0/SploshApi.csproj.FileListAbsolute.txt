@@ -1,0 +1,7 @@
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.csproj.AssemblyReference.cache
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.AssemblyInfoInputs.cache
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.AssemblyInfo.cs
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ferna\Desktop\angular\backend\Sploshapi\obj\Debug\net5.0\SploshApi.MvcApplicationPartsAssemblyInfo.cache

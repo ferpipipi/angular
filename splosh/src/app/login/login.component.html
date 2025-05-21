@@ -1,14 +1,17 @@
 <div class="conteiner-login">
-    <h1>INICIAR SESION</h1>
-    <div class="login-form">
-        <label class="label">Correo Electronico</label>
-        <input type="email" [(ngModel)]="email" name="email" required>
-        <label class="label">Contraseña</label>
-        <input type="password" [(ngModel)]="password" name="password" required>
-        <div class="botones">
-            <button class="btn-login" [routerLink]="['/home']">Iniciar sesión</button>
-            <button class="btn-login">Registrarse</button>
-        </div>
-        <label class="label-olvidar">Olvidaste tu contrasena?</label>
+  <h1>INICIAR SESIÓN</h1>
+  <form class="login-form" (ngSubmit)="login()">
+    <label class="label">Correo Electrónico</label>
+    <input type="email" [(ngModel)]="email" name="email" required>
+
+    <label class="label">Contraseña</label>
+    <input type="password" [(ngModel)]="password" name="password" required>
+
+    <div class="botones">
+      <button class="btn-login" (click)="login()">Iniciar sesión</button>
+      <button class="btn-login" type="button">Registrarse</button>
     </div>
+
+    <label class="label-olvidar">¿Olvidaste tu contraseña?</label>
+  </form>
 </div>
