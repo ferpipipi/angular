@@ -31,7 +31,7 @@ namespace SploshApi.Controllers
         public IActionResult Register([FromBody] dynamic user)
         {
             string correo = user.GetProperty("email").GetString();
-string contrasena = user.GetProperty("password").GetString();
+            string contrasena = user.GetProperty("password").GetString();
 
 
             byte[] hashedPassword = HashPassword(contrasena);

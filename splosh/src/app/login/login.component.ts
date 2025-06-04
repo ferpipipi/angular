@@ -18,8 +18,6 @@ export class LoginComponent {
   constructor(private http: HttpClient, private router: Router) {}
 
   login() {
-    console.log('login funcionó');
-
     if (!this.email || !this.password) {
       alert('Por favor ingresa correo y contraseña');
       return;
@@ -30,20 +28,20 @@ export class LoginComponent {
       password: this.password
     };
 
-    this.http.post<{ status: string }>('http://localhost:5000/api/auth/login', userData)
+    this.http.post<{ status: string; message?: string }>('http://localhost:5000/api/auth/login', userData)
       .subscribe({
         next: (response) => {
           if (response.status === 'success') {
-            alert('Inicio de sesión exitoso');
-            this.router.navigate(['/home']);
+            this.router.navigate(['/home']); 
           } else {
-            alert('Correo o contraseña incorrectos');
+            alert('Credenciales incorrectas. Intenta nuevamente.');
           }
         },
         error: (error) => {
-          console.error('Error en el servidor:', error);
-          alert('Error en el servidor, intenta más tarde');
+          console.error('Error en login:', error);
+          alert('Error al iniciar sesión. Verifica tu conexión o intenta más tarde.');
         }
       });
   }
+
 }
