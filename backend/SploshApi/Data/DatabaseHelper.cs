@@ -15,7 +15,8 @@ namespace SploshApi.Data
         public SqlConnection GetConnection()
         {
             var connectionString = _configuration.GetConnectionString("DefaultConnection");
-            return new SqlConnection(_connectionString);
+            return new SqlConnection(connectionString); 
         }
+
     }
 }

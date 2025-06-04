@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SploshApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a577d68787c2fcc29e923e9492d71b18f42f12c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3239323014affaab361e30d005e15aa8d142bdf2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SploshApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SploshApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

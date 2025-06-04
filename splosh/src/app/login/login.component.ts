@@ -30,7 +30,7 @@ export class LoginComponent {
       password: this.password
     };
 
-    this.http.post<{ status: string }>('https://localhost:5001/api/auth/login', userData)
+    this.http.post<{ status: string }>('http://localhost:5000/api/auth/login', userData)
       .subscribe({
         next: (response) => {
           if (response.status === 'success') {
