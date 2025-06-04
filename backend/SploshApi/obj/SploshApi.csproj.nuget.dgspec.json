@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ferna\\Desktop\\angular\\backend\\sploshapi\\SploshApi.csproj": {}
+    "C:\\Users\\ferna\\Desktop\\angular\\backend\\SploshApi\\SploshApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ferna\\Desktop\\angular\\backend\\sploshapi\\SploshApi.csproj": {
+    "C:\\Users\\ferna\\Desktop\\angular\\backend\\SploshApi\\SploshApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\angular\\backend\\sploshapi\\SploshApi.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\angular\\backend\\SploshApi\\SploshApi.csproj",
         "projectName": "SploshApi",
-        "projectPath": "C:\\Users\\ferna\\Desktop\\angular\\backend\\sploshapi\\SploshApi.csproj",
+        "projectPath": "C:\\Users\\ferna\\Desktop\\angular\\backend\\SploshApi\\SploshApi.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferna\\Desktop\\angular\\backend\\sploshapi\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\Desktop\\angular\\backend\\SploshApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",

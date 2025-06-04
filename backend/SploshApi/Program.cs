@@ -24,6 +24,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAngularClient");
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
